@@ -1,0 +1,75 @@
+body {
+    font-size: 14px;
+    background: rgb(231, 212, 196);
+
+}
+
+h1 {
+    color: rgb(109, 73, 211);
+}
+
+h2 {
+    font-size: 25px;
+}
+
+.h40 {
+    font-size: 40px;
+}
+
+* {
+    color: green;
+}
+
+p {
+    color: rgb(207, 32, 32);
+}
+
+.subtitle {
+    font-size: 30px;
+}
+
+#heading {
+    text-align: center;
+}
+
+ol ul span {
+    background: rgb(170, 170, 170);
+    font-size: 20px;
+}
+
+span, p, .card h2 {
+    margin-bottom: 30px;
+}
+
+img {
+    width: 250px;
+}
+
+ol > li {
+    border-bottom: 2px solid red;
+}
+
+.subtitle ~ p {
+    border: 3px solid rgb(255, 0, 98);
+}
+
+ul ~ p {
+    border: 3px solid rgb(8, 133, 14);
+}
+
+[type="checkbox"] {
+    margin-bottom: 40px;
+}
+
+[type="checkbox"] + p {
+    display: none;
+}
+
+[type="checkbox"]:checked + p {
+    display: block;
+}
+
+[class="card"] {
+    text-align: center;
+    background-color: rgb(161, 177, 177);
+}
